@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A247673B1CCEC419008CCF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247673A1CCEC419008CCF19 /* AppDelegate.swift */; };
+		A247673D1CCEC419008CCF19 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A247673C1CCEC419008CCF19 /* art.scnassets */; };
+		A247673F1CCEC419008CCF19 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247673E1CCEC419008CCF19 /* GameViewController.swift */; };
+		A24767421CCEC419008CCF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24767401CCEC419008CCF19 /* Main.storyboard */; };
+		A24767441CCEC419008CCF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24767431CCEC419008CCF19 /* Assets.xcassets */; };
+		A24767471CCEC419008CCF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24767451CCEC419008CCF19 /* LaunchScreen.storyboard */; };
+		A24767521CCEC419008CCF19 /* HeightMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24767511CCEC419008CCF19 /* HeightMapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A247674E1CCEC419008CCF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A247672F1CCEC418008CCF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24767361CCEC418008CCF19;
+			remoteInfo = HeightMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24767371CCEC419008CCF19 /* HeightMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeightMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A247673A1CCEC419008CCF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A247673C1CCEC419008CCF19 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A247673E1CCEC419008CCF19 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A24767411CCEC419008CCF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A24767431CCEC419008CCF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24767461CCEC419008CCF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A24767481CCEC419008CCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeightMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24767511CCEC419008CCF19 /* HeightMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightMapTests.swift; sourceTree = "<group>"; };
+		A24767531CCEC419008CCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24767341CCEC418008CCF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247674A1CCEC419008CCF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A247672E1CCEC418008CCF19 = {
+			isa = PBXGroup;
+			children = (
+				A24767391CCEC419008CCF19 /* HeightMap */,
+				A24767501CCEC419008CCF19 /* HeightMapTests */,
+				A24767381CCEC419008CCF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24767381CCEC419008CCF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24767371CCEC419008CCF19 /* HeightMap.app */,
+				A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24767391CCEC419008CCF19 /* HeightMap */ = {
+			isa = PBXGroup;
+			children = (
+				A247673A1CCEC419008CCF19 /* AppDelegate.swift */,
+				A247673C1CCEC419008CCF19 /* art.scnassets */,
+				A247673E1CCEC419008CCF19 /* GameViewController.swift */,
+				A24767401CCEC419008CCF19 /* Main.storyboard */,
+				A24767431CCEC419008CCF19 /* Assets.xcassets */,
+				A24767451CCEC419008CCF19 /* LaunchScreen.storyboard */,
+				A24767481CCEC419008CCF19 /* Info.plist */,
+			);
+			path = HeightMap;
+			sourceTree = "<group>";
+		};
+		A24767501CCEC419008CCF19 /* HeightMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A24767511CCEC419008CCF19 /* HeightMapTests.swift */,
+				A24767531CCEC419008CCF19 /* Info.plist */,
+			);
+			path = HeightMapTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24767361CCEC418008CCF19 /* HeightMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMap" */;
+			buildPhases = (
+				A24767331CCEC418008CCF19 /* Sources */,
+				A24767341CCEC418008CCF19 /* Frameworks */,
+				A24767351CCEC418008CCF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeightMap;
+			productName = HeightMap;
+			productReference = A24767371CCEC419008CCF19 /* HeightMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A247674C1CCEC419008CCF19 /* HeightMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMapTests" */;
+			buildPhases = (
+				A24767491CCEC419008CCF19 /* Sources */,
+				A247674A1CCEC419008CCF19 /* Frameworks */,
+				A247674B1CCEC419008CCF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A247674F1CCEC419008CCF19 /* PBXTargetDependency */,
+			);
+			name = HeightMapTests;
+			productName = HeightMapTests;
+			productReference = A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A247672F1CCEC418008CCF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Salt Pig";
+				TargetAttributes = {
+					A24767361CCEC418008CCF19 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A247674C1CCEC419008CCF19 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A24767361CCEC418008CCF19;
+					};
+				};
+			};
+			buildConfigurationList = A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "HeightMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A247672E1CCEC418008CCF19;
+			productRefGroup = A24767381CCEC419008CCF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24767361CCEC418008CCF19 /* HeightMap */,
+				A247674C1CCEC419008CCF19 /* HeightMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24767351CCEC418008CCF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A247673D1CCEC419008CCF19 /* art.scnassets in Resources */,
+				A24767471CCEC419008CCF19 /* LaunchScreen.storyboard in Resources */,
+				A24767441CCEC419008CCF19 /* Assets.xcassets in Resources */,
+				A24767421CCEC419008CCF19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247674B1CCEC419008CCF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24767331CCEC418008CCF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A247673F1CCEC419008CCF19 /* GameViewController.swift in Sources */,
+				A247673B1CCEC419008CCF19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24767491CCEC419008CCF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24767521CCEC419008CCF19 /* HeightMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A247674F1CCEC419008CCF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24767361CCEC418008CCF19 /* HeightMap */;
+			targetProxy = A247674E1CCEC419008CCF19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A24767401CCEC419008CCF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24767411CCEC419008CCF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A24767451CCEC419008CCF19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24767461CCEC419008CCF19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24767541CCEC419008CCF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24767551CCEC419008CCF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24767571CCEC419008CCF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeightMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A24767581CCEC419008CCF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeightMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A247675A1CCEC419008CCF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HeightMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeightMap.app/HeightMap";
+			};
+			name = Debug;
+		};
+		A247675B1CCEC419008CCF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeightMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeightMap.app/HeightMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "HeightMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24767541CCEC419008CCF19 /* Debug */,
+				A24767551CCEC419008CCF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24767571CCEC419008CCF19 /* Debug */,
+				A24767581CCEC419008CCF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A247675A1CCEC419008CCF19 /* Debug */,
+				A247675B1CCEC419008CCF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A247672F1CCEC418008CCF19 /* Project object */;
+}
