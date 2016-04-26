@@ -14,6 +14,8 @@
 		A24767441CCEC419008CCF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24767431CCEC419008CCF19 /* Assets.xcassets */; };
 		A24767471CCEC419008CCF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24767451CCEC419008CCF19 /* LaunchScreen.storyboard */; };
 		A24767521CCEC419008CCF19 /* HeightMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24767511CCEC419008CCF19 /* HeightMapTests.swift */; };
+		A247675F1CCED389008CCF19 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247675E1CCED389008CCF19 /* Geometry.swift */; };
+		A24767611CCF5AF5008CCF19 /* PerlinGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24767601CCF5AF5008CCF19 /* PerlinGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeightMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24767511CCEC419008CCF19 /* HeightMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightMapTests.swift; sourceTree = "<group>"; };
 		A24767531CCEC419008CCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A247675E1CCED389008CCF19 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		A24767601CCF5AF5008CCF19 /* PerlinGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerlinGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				A24767431CCEC419008CCF19 /* Assets.xcassets */,
 				A24767451CCEC419008CCF19 /* LaunchScreen.storyboard */,
 				A24767481CCEC419008CCF19 /* Info.plist */,
+				A247675E1CCED389008CCF19 /* Geometry.swift */,
+				A24767601CCF5AF5008CCF19 /* PerlinGenerator.swift */,
 			);
 			path = HeightMap;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A247673F1CCEC419008CCF19 /* GameViewController.swift in Sources */,
+				A24767611CCF5AF5008CCF19 /* PerlinGenerator.swift in Sources */,
+				A247675F1CCED389008CCF19 /* Geometry.swift in Sources */,
 				A247673B1CCEC419008CCF19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
