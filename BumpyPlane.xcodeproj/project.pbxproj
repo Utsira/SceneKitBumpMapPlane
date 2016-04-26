@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				A24767391CCEC419008CCF19 /* BumpyPlane */,
-				A24767501CCEC419008CCF19 /* HeightMapTests */,
+				A24767501CCEC419008CCF19 /* BumpyPlaneTests */,
 				A24767381CCEC419008CCF19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,12 +97,13 @@
 			path = HeightMap;
 			sourceTree = "<group>";
 		};
-		A24767501CCEC419008CCF19 /* HeightMapTests */ = {
+		A24767501CCEC419008CCF19 /* BumpyPlaneTests */ = {
 			isa = PBXGroup;
 			children = (
 				A24767511CCEC419008CCF19 /* HeightMapTests.swift */,
 				A24767531CCEC419008CCF19 /* Info.plist */,
 			);
+			name = BumpyPlaneTests;
 			path = HeightMapTests;
 			sourceTree = "<group>";
 		};
