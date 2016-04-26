@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A24767361CCEC418008CCF19"
-               BuildableName = "HeightMap.app"
-               BlueprintName = "HeightMap"
-               ReferencedContainer = "container:HeightMap.xcodeproj">
+               BuildableName = "BumpyPlane.app"
+               BlueprintName = "BumpyPlane"
+               ReferencedContainer = "container:BumpyPlane.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A247674C1CCEC419008CCF19"
-               BuildableName = "HeightMapTests.xctest"
-               BlueprintName = "HeightMapTests"
-               ReferencedContainer = "container:HeightMap.xcodeproj">
+               BuildableName = "BumpyPlane.xctest"
+               BlueprintName = "BumpyPlaneTests"
+               ReferencedContainer = "container:BumpyPlane.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24767361CCEC418008CCF19"
-            BuildableName = "HeightMap.app"
-            BlueprintName = "HeightMap"
-            ReferencedContainer = "container:HeightMap.xcodeproj">
+            BuildableName = "BumpyPlane.app"
+            BlueprintName = "BumpyPlane"
+            ReferencedContainer = "container:BumpyPlane.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24767361CCEC418008CCF19"
-            BuildableName = "HeightMap.app"
-            BlueprintName = "HeightMap"
-            ReferencedContainer = "container:HeightMap.xcodeproj">
+            BuildableName = "BumpyPlane.app"
+            BlueprintName = "BumpyPlane"
+            ReferencedContainer = "container:BumpyPlane.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24767361CCEC418008CCF19"
-            BuildableName = "HeightMap.app"
-            BlueprintName = "HeightMap"
-            ReferencedContainer = "container:HeightMap.xcodeproj">
+            BuildableName = "BumpyPlane.app"
+            BlueprintName = "BumpyPlane"
+            ReferencedContainer = "container:BumpyPlane.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

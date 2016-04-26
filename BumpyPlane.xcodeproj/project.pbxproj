@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A24767371CCEC419008CCF19 /* HeightMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeightMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24767371CCEC419008CCF19 /* BumpyPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumpyPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A247673A1CCEC419008CCF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A247673C1CCEC419008CCF19 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A247673E1CCEC419008CCF19 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		A24767431CCEC419008CCF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24767461CCEC419008CCF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24767481CCEC419008CCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeightMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A247674D1CCEC419008CCF19 /* BumpyPlane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BumpyPlane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24767511CCEC419008CCF19 /* HeightMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightMapTests.swift; sourceTree = "<group>"; };
 		A24767531CCEC419008CCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A247675E1CCED389008CCF19 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		A247672E1CCEC418008CCF19 = {
 			isa = PBXGroup;
 			children = (
-				A24767391CCEC419008CCF19 /* HeightMap */,
+				A24767391CCEC419008CCF19 /* BumpyPlane */,
 				A24767501CCEC419008CCF19 /* HeightMapTests */,
 				A24767381CCEC419008CCF19 /* Products */,
 			);
@@ -74,13 +74,13 @@
 		A24767381CCEC419008CCF19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A24767371CCEC419008CCF19 /* HeightMap.app */,
-				A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */,
+				A24767371CCEC419008CCF19 /* BumpyPlane.app */,
+				A247674D1CCEC419008CCF19 /* BumpyPlane.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A24767391CCEC419008CCF19 /* HeightMap */ = {
+		A24767391CCEC419008CCF19 /* BumpyPlane */ = {
 			isa = PBXGroup;
 			children = (
 				A247673A1CCEC419008CCF19 /* AppDelegate.swift */,
@@ -93,6 +93,7 @@
 				A247675E1CCED389008CCF19 /* Geometry.swift */,
 				A24767601CCF5AF5008CCF19 /* PerlinGenerator.swift */,
 			);
+			name = BumpyPlane;
 			path = HeightMap;
 			sourceTree = "<group>";
 		};
@@ -108,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A24767361CCEC418008CCF19 /* HeightMap */ = {
+		A24767361CCEC418008CCF19 /* BumpyPlane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMap" */;
+			buildConfigurationList = A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "BumpyPlane" */;
 			buildPhases = (
 				A24767331CCEC418008CCF19 /* Sources */,
 				A24767341CCEC418008CCF19 /* Frameworks */,
@@ -120,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = HeightMap;
+			name = BumpyPlane;
 			productName = HeightMap;
-			productReference = A24767371CCEC419008CCF19 /* HeightMap.app */;
+			productReference = A24767371CCEC419008CCF19 /* BumpyPlane.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A247674C1CCEC419008CCF19 /* HeightMapTests */ = {
+		A247674C1CCEC419008CCF19 /* BumpyPlaneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMapTests" */;
+			buildConfigurationList = A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "BumpyPlaneTests" */;
 			buildPhases = (
 				A24767491CCEC419008CCF19 /* Sources */,
 				A247674A1CCEC419008CCF19 /* Frameworks */,
@@ -138,9 +139,9 @@
 			dependencies = (
 				A247674F1CCEC419008CCF19 /* PBXTargetDependency */,
 			);
-			name = HeightMapTests;
+			name = BumpyPlaneTests;
 			productName = HeightMapTests;
-			productReference = A247674D1CCEC419008CCF19 /* HeightMapTests.xctest */;
+			productReference = A247674D1CCEC419008CCF19 /* BumpyPlane.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "HeightMap" */;
+			buildConfigurationList = A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "BumpyPlane" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A24767361CCEC418008CCF19 /* HeightMap */,
-				A247674C1CCEC419008CCF19 /* HeightMapTests */,
+				A24767361CCEC418008CCF19 /* BumpyPlane */,
+				A247674C1CCEC419008CCF19 /* BumpyPlaneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		A247674F1CCEC419008CCF19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A24767361CCEC418008CCF19 /* HeightMap */;
+			target = A24767361CCEC418008CCF19 /* BumpyPlane */;
 			targetProxy = A247674E1CCEC419008CCF19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +345,7 @@
 				INFOPLIST_FILE = HeightMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BumpyPlane;
 			};
 			name = Debug;
 		};
@@ -355,7 +356,7 @@
 				INFOPLIST_FILE = HeightMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BumpyPlane;
 			};
 			name = Release;
 		};
@@ -367,8 +368,8 @@
 				INFOPLIST_FILE = HeightMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeightMap.app/HeightMap";
+				PRODUCT_NAME = BumpyPlane;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BumpyPlane.app/BumpyPlane";
 			};
 			name = Debug;
 		};
@@ -379,15 +380,15 @@
 				INFOPLIST_FILE = HeightMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltpig.HeightMapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeightMap.app/HeightMap";
+				PRODUCT_NAME = BumpyPlane;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BumpyPlane.app/BumpyPlane";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "HeightMap" */ = {
+		A24767321CCEC418008CCF19 /* Build configuration list for PBXProject "BumpyPlane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24767541CCEC419008CCF19 /* Debug */,
@@ -396,21 +397,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMap" */ = {
+		A24767561CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "BumpyPlane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24767571CCEC419008CCF19 /* Debug */,
 				A24767581CCEC419008CCF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "HeightMapTests" */ = {
+		A24767591CCEC419008CCF19 /* Build configuration list for PBXNativeTarget "BumpyPlaneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A247675A1CCEC419008CCF19 /* Debug */,
 				A247675B1CCEC419008CCF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

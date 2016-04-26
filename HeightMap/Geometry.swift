@@ -5,17 +5,18 @@
 //  Created by Oliver Dew on 25/04/2016.
 //  Copyright © 2016 Salt Pig. All rights reserved.
 //
+//  to do: investigate geometry interleaving (would require custom normal creation tho)
+// 
 // adapting from: https://www.snip2code.com/Snippet/790183/Creating-Custom-3D-Geometry-with-Swift--
 
 import Foundation
 import SceneKit
 import SceneKit.ModelIO
 
-func bumpyPlane (width: Int = 10, length: Int = 10) -> SCNGeometry {
+func bumpyPlane (width: Int = 40, length: Int = 40, textureScale:Float = 8, cellSize:Float = 4) -> SCNGeometry {
     var vertices:[SCNVector3] = []
     var texCoords:[vector_float2] = []
     var faces:[Int32] = []
-    let size:Float = 1.0
     let pointsAcross = width + 1
     let halfWidth = Float(width) / 2
     let halfLength = Float(length) / 2
@@ -29,8 +30,8 @@ func bumpyPlane (width: Int = 10, length: Int = 10) -> SCNGeometry {
             let floatX = Float(x) - halfWidth
             let floatZ = Float(z) - halfLength
             let noise = generator.perlinNoise(floatX, y: floatZ)
-            vertices.append( SCNVector3Make(floatX * size, noise * size * 1.5, floatZ * size))
-            texCoords.append( vector_float2(x: Float(x)/Float(width), y: Float(z)/Float(length)))
+            vertices.append( SCNVector3Make(floatX * cellSize, noise * cellSize * 1.5, floatZ * cellSize))
+            texCoords.append( vector_float2(x: (Float(x)/Float(width)) * textureScale, y: (Float(z)/Float(length)) * textureScale))
             // print(texCoords.last)
             if z > 0 && x > 0 {
                 let a = Int32(vertices.count) - 1
@@ -50,17 +51,27 @@ func bumpyPlane (width: Int = 10, length: Int = 10) -> SCNGeometry {
     // round-trip to ModelIO to calculate normals
     let mdlMesh = MDLMesh(SCNGeometry: geometry)
     mdlMesh.addNormalsWithAttributeNamed("MDLVertexAttributeNormal", creaseThreshold: 0) //the documentation says first value can be nil, this leads to a runtime error though
-    
     let geometryWithNormals = SCNGeometry(MDLMesh: mdlMesh)
+    
     //Add materials
     let material = SCNMaterial()
     material.diffuse.contents = UIImage(named: "art.scnassets/Barren Reds.jpg") //UIColor.blueColor()
+    material.diffuse.wrapS = .Repeat
+    material.diffuse.wrapT = .Repeat
+    
     material.specular.contents = UIColor.whiteColor()
-    material.shininess = 2
-    print(material.lightingModelName)
+    material.shininess = 1.5
+    // create normal map
+    //let texture = MDLTexture(named: "art.scnassets/Barren Reds.jpg")!
+    //let normalMap = MDLNormalMapTexture(byGeneratingNormalMapWithTexture: texture, name: nil, smoothness: 0.5, contrast: 0.8)
+    //material.normal.contents = normalMap.imageFromTexture()?.takeUnretainedValue()
+    //material.normal.wrapS = .Repeat
+    //material.normal.wrapT = .Repeat
+
+    //print(material.lightingModelName)
     // material.lightingModelName = SCNLightingModelPhong
     geometryWithNormals.materials = [material]
-    geometryWithNormals.subdivisionLevel = 1
+    //geometryWithNormals.subdivisionLevel = 1
     
     return geometryWithNormals
 }
@@ -84,7 +95,7 @@ func createGeometry(vertices:[SCNVector3], texCoords:[vector_float2]? = nil, ind
     }
     
     // Create the source and elements in the appropriate format
-    let data = NSData(bytes: vertices, length: sizeof(SCNVector3) * vertices.count)
+    //let data = NSData(bytes: vertices, length: sizeof(SCNVector3) * vertices.count)
     let vertexSource = SCNGeometrySource(vertices: vertices, count: vertices.count)
 //    let vertexSource = SCNGeometrySource(
 //        data: data, semantic: SCNGeometrySourceSemanticVertex,
