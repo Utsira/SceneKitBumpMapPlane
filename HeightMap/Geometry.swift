@@ -98,7 +98,7 @@ func createGeometry(vertices:[SCNVector3], texCoords:[vector_float2]? = nil, ind
         return SCNGeometry(sources: [vertexSource], elements: [element])
     }else{
         let uvData = NSData(bytes: texCoords!, length: sizeof(vector_float2) * texCoords!.count)
-        // let uvSource = SCNGeometrySource(textureCoordinates: texCoords!, count: texCoords!.count)
+        // let uvSource = SCNGeometrySource(textureCoordinates: texCoords!, count: texCoords!.count) //this requires CGPoint, but gives error SCNGeometrySource::initWithMeshSource unexpected component type 6
         let uvSource = SCNGeometrySource(data: uvData,
                                          semantic: SCNGeometrySourceSemanticTexcoord,
                                          vectorCount: texCoords!.count,
